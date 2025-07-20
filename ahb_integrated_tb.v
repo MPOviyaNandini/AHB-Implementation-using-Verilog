@@ -28,7 +28,7 @@ module ahb_integrated_tb ();
   wire [31:0] data_out;
 
   // Instantiate the DUT
-  ahb_integrated dut (
+  ahb_integrated DUT (
     .clk(clk),
     .reset(reset),
     .mem_write(mem_write),
