@@ -102,7 +102,7 @@ always @(*) begin
         hsize=hsize;
         haddr=haddr;
         hprot=hprot;
-        hwdata   = hwdata;
+        hwdata = hwdata;
         htrans= htrans;  
         data_out = data_out;
     end
